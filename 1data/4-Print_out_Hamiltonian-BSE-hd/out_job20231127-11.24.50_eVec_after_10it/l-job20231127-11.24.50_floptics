@@ -1,0 +1,57 @@
+
+
+
+_|      _|   _|_|   _|      _|  _|_|_|     _|_|
+  _|  _|   _|    _| _|_|  _|_| _|    _| _|    _|
+    _|     _|_|_|_| _|  _|  _| _|_|_|   _|    _|
+    _|     _|    _| _|      _| _|    _| _|    _|
+    _|     _|    _| _|      _| _|_|_|     _|_|
+
+
+
+ <---> [01] MPI/OPENMP structure, Files & I/O Directories
+ <---> [02] CORE Variables Setup
+ <---> [02.01] Unit cells
+ <---> [02.02] Symmetries
+ <---> [02.03] Reciprocal space
+ <---> [02.04] K-grid lattice
+ <---> Grid dimensions      :   6   6
+ <---> [02.05] Energies & Occupations
+ <---> [03] Transferred momenta grid and indexing
+ <---> [04] Dipoles
+ <--->  Index g0 smallest positive vectors in each direction:  23 21  3
+ <--->  Index g0 smallest negative vectors in each direction:  18 20  2
+ <---> Number of k-point in each direction:    6   6   1
+ <---> [DIP] Database not correct or missing. To be computed
+ <--->  Index g0 smallest positive vectors in each direction:  23 21  3
+ <--->  Index g0 smallest negative vectors in each direction:  18 20  2
+ <---> Overlaps: |                                        | [000%] --(E) --(X)
+ <---> Overlaps: |########################################| [100%] --(E) --(X)
+ <---> [WARNING] Covariant Dipoles not in 3d. Assuming non periodic system.
+ <---> Using forth order approximation for covariant dipoles
+ <---> Covariant Dipoles |                                        | [000%] --(E) --(X)
+ <---> Covariant Dipoles |########################################| [100%] --(E) --(X)
+ <---> Dipoles in real space |                                        | [000%] --(E) --(X)
+ <---> [FFT-Oscillators/R space/Real Space] Mesh size:   12   12   75
+ <---> Dipoles in real space |########################################| [100%] --(E) --(X)
+ <---> Dipoles: P (T) |                                        | [000%] --(E) --(X)
+ <---> Dipoles: P (T) |########################################| [100%] --(E) --(X)
+ <---> [05] FL Initialization
+ <---> Dephasing Time              :  43.88079 [fs]
+ <---> Sampling  Time              :  0.811184 [fs]
+ <---> Total simulation time       :  44.69198 [fs]
+ <---> [05.01] Messaging
+ <---> Frequencies steps          :  1
+ <---> [WARNING][COLLISIONS] Found (and using) an Hartree-free collisions database
+ <---> [FFT-NL] Mesh size:   3   3  21
+ <---> SEX collisions I/O |                                        | [000%] --(E) --(X)
+ <---> SEX collisions I/O |########################################| [100%] --(E) --(X)
+ <---> [05.01.01] External/Internal QP corrections
+ <---> [QP_apply] Action to be applied: USER defined scissor
+ <---> [05.01.01.01]  QP corrections report
+ <---> [06] FL Start and Restart
+ <---> [FL] Frequencies |                                        | [000%] --(E) --(X)
+ <---> [07] FL self-consistency
+ <---> [FL] Frequencies |########################################| [100%] --(E) --(X)
+ <---> [08] Timing Overview
+ <---> [09] Game Over & Game summary

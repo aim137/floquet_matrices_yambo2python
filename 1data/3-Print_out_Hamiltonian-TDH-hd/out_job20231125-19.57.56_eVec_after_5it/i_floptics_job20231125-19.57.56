@@ -1,0 +1,49 @@
+#                                                                     
+#  **    **    **     ****     ****  ******     *******               
+# //**  **    ****   /**/**   **/** /*////**   **/////**              
+#  //****    **//**  /**//** ** /** /*   /**  **     //**             
+#   //**    **  //** /** //***  /** /******  /**      /**             
+#    /**   **********/**  //*   /** /*//// **/**      /**             
+#    /**  /**//////**/**   /    /** /*    /**//**     **              
+#    /**  /**     /**/**        /** /*******  //*******               
+#    //   //      // //         //  ///////    ///////                
+#                                                                     
+# Version 5.1.0 Revision 21801 Hash (prev commit) 33d8e545e           
+#                   Branch is devel-fl                                
+#             MPI+SLK+SLEPC+HDF5_MPI_IO Build                         
+#                http://www.yambo-code.org                            
+#
+floptics                         # [R] Floquet approach to Non-linear spectroscopy
+% NLBands
+  4 | 5 |                           # [NL] Bands range
+%
+% NLEnRange
+ 9.823600 | 9.823600 |         eV    # [NL] Energy range
+%
+NLEnSteps= 1                     # [NL] Energy steps
+NLDamping= 0.150000        eV    # [NL] Damping (or dephasing)
+NLCorrelation= "HARTREE"             # [NL] Correlation ("IPA/HARTREE/TDDFT/LRC/LRW/JGM/SEX")
+HARRLvcs= 2  Ha  # [HA] Hartree     RL components
+EXXRLvcs= 21817            RL    # [XX] Exchange    RL components
+FL_2D_ild=-1.000000              # [FL] Interlayer distance [Bohr] (-1 for bulk)
+% Field1_Dir
+ 1.000000 | 1.000000 | 0.000000 |        # [RT Field1] Versor
+%
+Field1_Int=  1000.00       kWLm2 # [RT Field1] Intensity
+Field1_Phase= 0.000000           # [FL] Phase in external field as fraction of pi - 0 for SIN
+Xorder= 2                        # [FL] Max order of the response/exc functions
+Xadd_mode=0                      # [FL] Additional modes to ensure convercence
+Xthresh_1= 0.01  # [FL] Self-consistent threshold on 1st order response function
+Xthresh_2= 0.100000              # [FL] Self-consistent threshold on 2nd order response function
+Xthresh_3= 0.100000              # [FL] Self-consistent threshold on 3rd order response function
+FL_solver= "D"                   # [FL] Eigenproblem solver mode ("(D)IAGONALIZATION/(L)ANCZOS")
+FL_deg_thresh= 0.100000E-4       # [FL] Degeneracy threshold in KS band structure
+FL_deg_lift= 0.010000            # [FL] Degeneracy lifting of KS band structure
+S_inv_mode= "N"                  # [FL] Inversion method ("(N)UMERICAL/(D)UFFIN/(P)ERTURBATIVE")
+FL_beta= 1.0  # [FL] Mixing beta
+FL_max_it= 5  # [FL] Maximum number of iterations
+AvE_deg_thresh= 0.010000         # [FL] Degeneracy threshold for average energy subspace
+FL_Pade= 0.000000          eV    # [FL] Additional Floquet-mode-dependent damping
+% GfnQP_E
+ 3.300000 | 1.000000 | 1.000000 |        # [EXTQP G] E parameters  (c/v) eV|adim|adim
+%

@@ -1,0 +1,61 @@
+#                                                                     
+# :   :::   :::     ::::    ::::  :::::::::   ::::::::                
+# :+:   :+: :+: :+:   +:+:+: :+:+:+ :+:    :+: :+:    :+              
+#  +:+ +:+ +:+   +:+  +:+ +:+:+ +:+ +:+    +:+ +:+    +:+             
+#   +#++: +#++:++#++: +#+  +:+  +#+ +#++:++#+  +#+    +:+             
+#    +#+  +#+     +#+ +#+       +#+ +#+    +#+ +#+    +#+             
+#    #+#  #+#     #+# #+#       #+# #+#    #+# #+#    #+#             
+#    ###  ###     ### ###       ### #########   ########              
+#                                                                     
+#                                                                     
+# Version 5.1.0 Revision 21801 Hash (prev commit) 33d8e545e           
+#                   Branch is devel-fl                                
+#             MPI+SLK+SLEPC+HDF5_MPI_IO Build                         
+#                http://www.yambo-code.org                            
+#
+#
+#     E [eV]            X/Im[cm/stV](x)    X/Re[cm/stV](x)    X/Im[cm/stV](y)    X/Re[cm/stV](y)    X/Im[cm/stV](z)    X/Re[cm/stV](z)
+#
+      5.43320000         2.14666833         4.36224413         0.00000000         0.00000000         0.00000000         0.00000000   
+# 
+# 11/27/2023 at 11:25 yambo_nl @ asellota02 [start]
+# 11/27/2023 at 11:25                       [end]
+#  
+# Timing   [Min/Max/Average]: 02s/02s/02s
+#
+# .-Input file  out_job20231127-11.25.35/i_floptics_job20231127-11.25.35
+# | floptics                         # [R] Floquet approach to Non-linear spectroscopy
+# | % Field1_Freq
+# |  5.433200 | 5.433200 |         eV    # [RT Field1] Frequency
+# | %
+# | Field1_NFreqs= 1                 # [RT Field1] Frequency
+# | Field1_Int=  1000.00       kWLm2 # [RT Field1] Intensity
+# | Field1_Width= 0.000000     fs    # [RT Field1] Width
+# | Field1_FWHM= 0.000000      fs    # [RT Field1] Full Width at Half Maximum (overwrite width if set)
+# | Field1_kind= "SOFTSIN"           # [RT Field1] Kind(SIN|COS|RES|ANTIRES|GAUSS|DELTA|QSSIN)
+# | Field1_pol= "linear"             # [RT Field1] Pol(linear|circular)
+# | % Field1_Dir
+# |  0.707107 | 0.707107 | 0.000000 |        # [RT Field1] Versor
+# | %
+# | Field1_Tstart= 0.010000    fs    # [RT Field1] Initial Time
+# | % NLBands
+# |   4 |  5 |                           # [NL] Bands range
+# | %
+# | % NLEnRange
+# |  5.433200 | 5.433200 |         eV    # [NL] Energy range
+# | %
+# | NLEnSteps= 1                     # [NL] Energy steps
+# | NLDamping= 0.150000        eV    # [NL] Damping (or dephasing)
+# | NLCorrelation= "SEX"             # [NL] Correlation ("IPA/HARTREE/TDDFT/LRC/LRW/JGM/SEX")
+# | FFTGvecs=  3951            RL    # [FFT] Plane-waves
+# | HARRLvcs= 2                Ha    # [HA] Hartree     RL components
+# | EXXRLvcs= 2                Ha    # [XX] Exchange    RL components
+# | FL_2D_ild= 0.100000E-6           # [FL] Interlayer distance [Bohr] (-1 for bulk)
+# | Field1_Phase= 0.000000           # [FL] Phase in external field as fraction of pi - 0 for SIN
+# | Xorder= 2                        # [FL] Max order of the response/exc functions
+# | Xthresh_1= 0.010000              # [FL] Self-consistent threshold on 1st order response function
+# | Xthresh_2= 0.100000              # [FL] Self-consistent threshold on 2nd order response function
+# | Xthresh_3= 0.100000              # [FL] Self-consistent threshold on 3rd order response function
+# | FL_solver= "D"                   # [FL] Eigenproblem solver mode ("(D)IAGONALIZATION/(L)ANCZOS")
+# | FL_max_it= 16                    # [FL] Maximum number of iterations
+# | AvE_deg_thresh= 0.010000         # [FL] Degeneracy threshold for average energy subspace

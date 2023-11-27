@@ -1,0 +1,60 @@
+#                                                                     
+#   __   __     _        __  __       ____      U  ___  u             
+#   \ \ / / U  /"\  U u |" \/ "| u U | __") u    \/"_ \/              
+#    \ V /   \/ _ \/   \| |\/| |/   \|  _ \/     | | | |              
+#   U_|"|_u  / ___ \    | |  | |     | |_) | .-,_| |_| |              
+#     |_|   /_/   \_\   |_|  |_|     |____/   \_)-\___/               
+# .-,//|(_   \\    >>  <<,-,,-.     _|| \\_        \\                 
+#  \_) (__) (__)  (__)  (./  \.)   (__) (__)      (__)                
+#                                                                     
+#                                                                     
+# Version 5.1.0 Revision 21801 Hash (prev commit) 33d8e545e           
+#                   Branch is devel-fl                                
+#             MPI+SLK+SLEPC+HDF5_MPI_IO Build                         
+#                http://www.yambo-code.org                            
+#
+#
+#     E [eV]            X/Im[cm/stV](x)    X/Re[cm/stV](x)    X/Im[cm/stV](y)    X/Re[cm/stV](y)    X/Im[cm/stV](z)    X/Re[cm/stV](z)
+#
+      9.8236000        -0.67207980E-18    -0.33272410E-05    -0.66835274E-18     0.25750235E-06      0.0000000          0.0000000    
+# 
+# 11/25/2023 at 20:08 yambo_nl @ asellota02 [start]
+# 11/25/2023 at 20:08                       [end]
+#
+# .-Input file  out_job20231125-20.08.23/i_floptics_job20231125-20.08.23
+# | floptics                         # [R] Floquet approach to Non-linear spectroscopy
+# | BoseTemp= 0.000000         eV    # Bosonic Temperature
+# | % Field1_Freq
+# |  9.823600 | 9.823600 |         eV    # [RT Field1] Frequency
+# | %
+# | Field1_NFreqs= 1                 # [RT Field1] Frequency
+# | Field1_Int=  1000.00       kWLm2 # [RT Field1] Intensity
+# | Field1_Width= 0.000000     fs    # [RT Field1] Width
+# | Field1_FWHM= 0.000000      fs    # [RT Field1] Full Width at Half Maximum (overwrite width if set)
+# | Field1_kind= "SOFTSIN"           # [RT Field1] Kind(SIN|COS|RES|ANTIRES|GAUSS|DELTA|QSSIN)
+# | Field1_pol= "linear"             # [RT Field1] Pol(linear|circular)
+# | % Field1_Dir
+# |  0.707107 | 0.707107 | 0.000000 |        # [RT Field1] Versor
+# | %
+# | Field1_Tstart= 0.010000    fs    # [RT Field1] Initial Time
+# | % NLBands
+# |   4 |  5 |                           # [NL] Bands range
+# | %
+# | % NLEnRange
+# |  9.823600 | 9.823600 |         eV    # [NL] Energy range
+# | %
+# | NLEnSteps= 1                     # [NL] Energy steps
+# | NLDamping= 0.150000        eV    # [NL] Damping (or dephasing)
+# | NLCorrelation= "HARTREE"         # [NL] Correlation ("IPA/HARTREE/TDDFT/LRC/LRW/JGM/SEX")
+# | FFTGvecs=  3951            RL    # [FFT] Plane-waves
+# | HARRLvcs= 2                Ha    # [HA] Hartree     RL components
+# | EXXRLvcs= 21817            RL    # [XX] Exchange    RL components
+# | FL_2D_ild= 0.100000              # [FL] Interlayer distance [Bohr] (-1 for bulk)
+# | Field1_Phase= 0.000000           # [FL] Phase in external field as fraction of pi - 0 for SIN
+# | Xorder= 2                        # [FL] Max order of the response/exc functions
+# | Xthresh_1= 0.010000              # [FL] Self-consistent threshold on 1st order response function
+# | Xthresh_2= 0.100000              # [FL] Self-consistent threshold on 2nd order response function
+# | Xthresh_3= 0.100000              # [FL] Self-consistent threshold on 3rd order response function
+# | FL_solver= "D"                   # [FL] Eigenproblem solver mode ("(D)IAGONALIZATION/(L)ANCZOS")
+# | FL_max_it= 3                     # [FL] Maximum number of iterations
+# | AvE_deg_thresh= 0.010000         # [FL] Degeneracy threshold for average energy subspace
